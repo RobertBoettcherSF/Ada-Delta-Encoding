@@ -1,4 +1,4 @@
-project Project is
+project Delta_Encoding is
    for Source_Dirs use (".");
    for Object_Dir use ".";
    for Exec_Dir use ".";
@@ -7,4 +7,4 @@ project Project is
    package Compiler is
       for Default_Switches ("Ada") use ("-g", "-O2", "-gnatwa");
    end Compiler;
-end Project;
+end Delta_Encoding;
